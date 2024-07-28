@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+/* font-family: "Mulish", sans-serif;*/
+
+.mulish-normal {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal ;
+  font-style: normal;
+}
+/* shared styles */
+.orange-code{
+  color: #FF5400;
+}
+.primary-dark{
+  color: #424247;
+ 
+}
+.primary-light{
+  color: #FFFFFF;
+
+}
+
+.btn-primary{
+  color: #FFFFFF;
+  background-color:#FF5400;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 35px;
+  width: 174px;
+
+}
+
+/* nav styles */
+
+nav{
+  display: flex;
+  align-items: center;
+  margin: 0 230px;
+  justify-content: space-between;
+}
+.nav-content{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+ 
+}
+
+nav ul li{
+  list-style: none;
+}
+nav ul{
+  display: flex;
+  gap:44px;
+  align-items: center;
+  
+ 
+}
+nav li>a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  
+}
+.nav-title{
+  font-size: 36px;
+  font-weight: 800;
+}
+
+/* banner section style */
+.banner{
+  max-width: 1200px;
+  height: 500px;
+  background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+  background-repeat: no-repeat;
+  align-items: center;
+  border-radius: 16px;
+  margin: 0 auto;
+  
+}
+.banner-content{
+  
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%);
+  border-radius: 16px;
+  padding: 106px 185px;
+  margin-bottom: 24px;
+}
+.banner-title{
+text-align: center;
+font-size: 64px;
+font-weight: 800;
+}
+.banner-description{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+.search{
+  max-width: 800px;
+}
+.search-content{
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+background: rgba(255, 255, 255, 0.3);
+margin: 0 auto;
+padding: 16px;
+}
+
+.search-content input ,.search-content select{
+  margin-right: 24px;
+  font-size: 16px;
+  padding :16px;
+  border: none;
+  border-radius: 8px;
+  width: 174px;
+  color: rgba(19, 19, 24, 0.5);
+}
