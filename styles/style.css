@@ -118,3 +118,31 @@ input , select{
   cursor: pointer;
   font-size: 1rem;
 }
+
+/* popular section styles */
+.popular{
+  display: grid;
+  grid-template-columns: repeat(	2,1fr);
+  gap: 3.5rem;
+  margin-top: 100px;
+
+}
+.popular-info{
+  row-gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  justify-content: space-evenly;
+}
+
+.section-title{
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 0px;
+}
+.section-description, ul{
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+}
