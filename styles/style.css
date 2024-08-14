@@ -9,7 +9,7 @@
 }
 /* shared styles */
 .container{
-  width: 1140px;
+  width: 90%;
   margin: 5rem auto;
   border-radius: 0.5rem;
 }
@@ -17,7 +17,7 @@
   color: #FF5400;
 }
 h2{
-  font-size: 2.25rem;
+  font-size: 2.25;
   font-weight: 800;
   text-align: center;
 }
@@ -187,4 +187,22 @@ input , select{
   grid-template-columns: 1.5fr 2fr;
   margin: 1rem 0;
   gap: 1rem;
+}
+.ham-burger{
+  display: none;
+}
+/* responsive styles */
+
+
+@media screen and (max-width:576px){
+  .nav-options{
+    display: none;
+  }
+  .ham-burger{
+    display: block;
+    font-size: larger;
+  }
+  .explore-container h3{
+    font-size: 26px;
+  }
 }
